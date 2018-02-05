@@ -1,0 +1,11 @@
+header h1 {
+  text-align: center;
+}
+
+.grill {
+  width: 755px;
+  height: 566px;
+  border: 1px solid black;
+  text-align: center;
+}
+
