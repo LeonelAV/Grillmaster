@@ -1,14 +1,172 @@
+<style type="text/css">
+  body {
+  color: #fff;
+  font-family: 'Nunito Semibold';
+  text-align: center;
+}
 
-<header class="container" data-ng-init="init()">
-  <h1>GrillMaster</h1>
-</header>
-    <div class="grill container">
-      <div class="steak">Steak</div>
-      <div class="steak">Steak</div>
-      <div class="steak">Steak</div>
-      <div class="steak">Steak</div>
-      <div class="sausage">Sausage</div>
-      <div class="tomato">Tomato</div>
-      <div class="veal">Veal</div>
-    </div>
+#grill {
+  display: grid; 
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(15, 1fr);
+  max-width: 755.905511811px; 
+  height: 566.9291338583px;
+  margin: 0 auto;
+}
 
+#grill div{
+  background:#3bbced;
+/*  padding: 30px;
+*/}
+
+#grill div:nth-child(even){
+  background: #777;
+}
+
+/*.steak {
+  width: 188.9763779528px;
+  height: 151.1811023622px;
+}
+
+.sausage {
+  width: 75.5905511811px;
+  height: 302.3622047244px;
+}
+*/
+.sausage1 {
+  grid-column: 1/3;
+  grid-row: 1/9;
+}
+
+.sausage2 {
+  grid-column: 3/5;
+  grid-row: 1/9;
+}
+
+.sausage3 {
+  grid-column: 5/7;
+  grid-row: 1/9;
+}
+
+.sausage4 {
+  grid-column: 7/9;
+  grid-row: 1/9;
+}
+
+.sausage5 {
+  grid-column: 9/11;
+  grid-row: 1/9;
+}
+
+.steak1 {
+  grid-column: 11/16;
+  grid-row: 1/5;
+}
+
+.steak2 {
+  grid-column: 16/21;
+  grid-row: 1/5;
+}
+
+.steak3 {
+  grid-column: 11/16;
+  grid-row: 5/9;
+}
+
+.steak4 {
+  grid-column: 16/21;
+  grid-row: 5/9;
+}
+
+.tomato1 {
+ grid-column: 1/4;
+ grid-row: 9/12;
+}
+
+.tomato2 {
+ grid-column: 4/7;
+ grid-row: 9/12;
+}
+
+.tomato3 {
+ grid-column: 7/10;
+ grid-row: 9/12;
+}
+
+.tomato4 {
+ grid-column: 10/13;
+ grid-row: 9/12;
+}
+
+.veal1{
+  grid-column: 13/17;
+  grid-row: 9/12;
+}
+
+.veal2{
+  grid-column: 17/21;
+  grid-row: 9/12;
+}
+
+.veal3{
+  grid-column: 1/5;
+  grid-row: 12/15;
+}
+
+.veal4{
+  grid-column: 5/9;
+  grid-row: 12/15;
+}
+
+.veal5{
+  grid-column: 9/13;
+  grid-row: 12/15;
+}
+
+.veal6{
+  grid-column: 13/17;
+  grid-row: 12/15;
+}
+
+.veal7{
+  grid-column: 17/21;
+  grid-row: 12/15;
+}
+
+/*.tomato {
+  width: 113.3858267717px;
+  height: 113.3858267717px;
+}
+
+.veal {
+  width:151.1811023622px;
+  height: 113.3858267717px;
+}*/
+
+
+</style>
+
+<div id="grill">
+
+  <div class="steak steak1">Steak</div>
+  <div class="steak steak2">Steak</div>
+  <div class="steak steak3">Steak</div>
+  <div class="steak steak4">Steak</div>
+  <div class="sausage sausage1">Sausage</div>
+  <div class="sausage sausage2">Sausage</div>
+  <div class="sausage sausage3">Sausage</div>
+  <div class="sausage sausage4">Sausage</div>
+  <div class="sausage sausage5">Sausage</div>
+  <div class="tomato1">Tomato</div>
+  <div class="tomato2">Tomato</div>
+  <div class="tomato3">Tomato</div>
+  <div class="tomato4">Tomato</div>
+  <div class="veal1">Veal</div>
+  <div class="veal2">Veal</div>
+  <div class="veal3">Veal</div>
+  <div class="veal4">Veal</div>
+  <div class="veal5">Veal</div>
+  <div class="veal6">Veal</div>
+  <div class="veal7">Veal</div>
+
+</div>
